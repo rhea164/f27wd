@@ -1,0 +1,166 @@
+.navbar ul,button{
+    list-style-type: none;
+    background-color: #152320e1;
+     margin:0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+
+
+.navbar a,button{
+    color: #FBFFF1;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    
+}
+
+#heading{
+    color:  #ff3c38;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+   
+}
+
+button{
+    border-radius: 25px;
+    padding:10px 20px;
+    margin: 5px 5px 5px 380px;
+    
+
+}
+
+.navbar a:hover{
+    background-color: #0c0c0c ;
+    color: #0466c8;
+
+}
+
+.navbar li{
+    float: left;
+    
+}
+
+body{
+    margin: 0;
+}
+
+/*h1{
+    font-size: 22.9px;
+    color: #ff3c38; 
+    padding-right: 100px ;
+    
+
+}*/
+
+.first p {
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 60px;
+    font-size: 20px;;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+
+    /*p
+    
+    float: right;*/
+}
+
+
+.first h2{
+    text-align: center;
+    padding-right: 320px;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom:10px;
+    border-top: 0px;
+    margin-top: 0px;
+  
+    
+}
+.second img{
+    float: right;
+    width: 200px;
+    margin-top: 20%;
+    height: 250px;
+    border: 0px;
+    padding-bottom: 100px;
+    margin: 10px;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px solid rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 125px;
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    margin: 0 auto; /* Optional: Center the container horizontally */
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text within the grid item */
+}
+
+.grid-item img {
+    height: 300px; /* Set image height to fill the grid item */
+    margin-bottom: 10px;
+    scale: 1 1; /* Add some space between the image and the button */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    margin: 20px auto; /* Optional: Center the container horizontally with margin */
+}
+    
+/*#6c757d*/
