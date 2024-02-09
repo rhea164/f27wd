@@ -5,8 +5,28 @@
     padding-top: 5px;
     padding-bottom: 5px;
     overflow: hidden;
+    padding-left: 83.5px;
+    padding-right: 32px;
+    margin-left: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-right: 0;
     
 }
+
+.navbar{
+    position: fixed;
+    right:0px;
+    
+}
+
+
+body{
+   
+    
+}
+
+
 
 .navbar a,input{
     color: #FBFFF1;
@@ -39,7 +59,7 @@
 input{
     border-radius: 25px;
     padding:10px 20px;
-    margin: 5px 5px 5px 400px;
+    margin: 5px 5px 5px 390px;
     height:20px;
     width: 80px;
 
@@ -103,9 +123,8 @@ body{
     border-width: 20px;
     border-left-width: 20px;
     border-color: #f8dddd;
-    ; 
     padding: 0px;
-    margin:70px 0 0 70px;
+    margin:120px 0 0 70px;
 
 }
 
@@ -113,7 +132,7 @@ body{
     text-align: right;
     padding-right: 320px;
     font-size: 40px;
-    padding-top: 40px;
+    padding-top: 100px;
     padding-bottom:10px;
     margin: 0;
   
