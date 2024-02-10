@@ -44,6 +44,7 @@
 .review-heading{
     border-bottom: 2px black solid;
     padding-bottom: 6px;
+    padding-left: 12px;
 }
 
 .review-list{
@@ -177,6 +178,7 @@ h2{
 }
 
 body{
+    background-color: #f9c6c7;
     margin: 0;
 }
     
