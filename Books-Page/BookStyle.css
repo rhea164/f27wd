@@ -2,16 +2,10 @@
     list-style-type: none;
     background-color: #000000;
      margin:0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     overflow: hidden;
-    padding-left: 124px;
-    padding-right: 32px;
-    margin-left: 0;
-    border-left: 0;
-    border-right: 0;
-    margin-right: 0;
-    
+ padding-right: 107.8px;
 }
 
 .navbar{
@@ -56,10 +50,10 @@ input{
     
 }
 
-#heading{
+#selected{
     color:  #c1211e;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     padding: 15px;
     padding-right: 50px;
     padding-left: 10px;
@@ -69,6 +63,7 @@ input{
     margin: 0;
    
 }
+
 body {
     background-color: #f9c6c7;
     margin: 0; /* Remove default margin */
@@ -143,3 +138,4 @@ h1{
 }
     
 /*#6c757d*/
+
