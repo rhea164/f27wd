@@ -11,45 +11,44 @@
         const gridItems = document.querySelectorAll('.grid-item');
 
         gridItems.forEach(item => {
-            let scale = 1; // Initial scale factor
+            let scale = 1; 
 
-            // Function to handle zoom in
             const zoomIn = () => {
                 scale += 0.1;
                 applyTransform();
             };
 
-            // Function to handle zoom out
+            
             const zoomOut = () => {
-                scale -= 0.05; // Adjust this value to control the zoom out size
+                scale -= 0.05; 
                 applyTransform();
             };
 
-            // Function to apply the transformation to the image
+            
             const applyTransform = () => {
                 item.querySelector('img').style.transform = `scale(${scale})`;
             };
 
-            // Function to reset the scale to 1
+            
             const resetZoom = () => {
                 scale = 1;
                 applyTransform();
             };
 
-            // Function to handle mouse enter event
+            
             const handleMouseEnter = () => {
                 zoomIn();
             };
 
-            // Function to handle mouse leave event
+            
             const handleMouseLeave = () => {
                 resetZoom();
             };
 
-            // Attach the mouseenter event listener
+            
             item.addEventListener('mouseenter', handleMouseEnter);
 
-            // Attach the mouseleave event listener
+            
             item.addEventListener('mouseleave', handleMouseLeave);
         });
     });
