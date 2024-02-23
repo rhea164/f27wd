@@ -118,6 +118,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    list-style: none;
 }
 
 .retailers h4{
