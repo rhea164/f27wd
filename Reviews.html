@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suzanne Collins</title>
     <link rel="stylesheet" href="ReviewsStyle.css">
+    <script defer src="Reviews.js"></script>
 </head>
-<body>
-    <nav class="navbar">
+<body id="reviews">
+    <nav>
+        <div class="links">
         <ul>
             <li id="heading">Suzanne Collins</li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="books.html">Books</a></li>
-            <li><a href="">Achievements</a></li>
-            <li><a href="">Reviews</a></li>
+            <li class="item"><a data-active="home" href="index.html">Home</a></li>
+            <li class="item"><a data-active="books" href="Books.html">Books</a></li>
+            <li class="item"><a data-active="achievements" href="">Achievements</a></li>
+            <li class="item"><a data-active="reviews" href="Reviews.html">Reviews</a></li>
             <li class="search-bar"><label for="search"></label>
                 <input type="text" id="search" placeholder="search"></li>
         </ul>
+    </div>
     </nav>
     <h1>Reviews</h1>
     <section>
