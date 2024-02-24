@@ -7,8 +7,6 @@ nav ul{
     margin: 0;
     border: 0;
     padding: 15px 0 10px 0;
-
-
 }
 
 nav{
@@ -19,12 +17,9 @@ nav{
     width: 100%;
 }
 
-
 nav :nth-of-type(5){
     flex-grow: 1;
 }
-
-
 
 nav a{
     color: #FBFFF1;
