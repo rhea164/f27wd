@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzanne Collins</title>
+    <link rel="stylesheet" href="BookStyle.css">
+    <script defer src="Books.js"></script>
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const gridItems = document.querySelectorAll('.grid-item');
+
+        gridItems.forEach(item => {
+            let scale = 1;
+
+
+            const zoomIn = () => {
+                scale += 0.1;
+                applyTransform();
+            };
+
+            const zoomOut = () => {
+                scale -= 0.05;
+                applyTransform();
+            };
+
+
+            const applyTransform = () => {
+                item.querySelector('img').style.transform = `scale(${scale})`;
+            };
+
+
+            const resetZoom = () => {
+                scale = 1;
+                applyTransform();
+            };
+
+            const handleMouseEnter = () => {
+                zoomIn();
+            };
+
+
+            const handleMouseLeave = () => {
+                resetZoom();
+            };
+
+
+            item.addEventListener('mouseenter', handleMouseEnter);
+
+
+            item.addEventListener('mouseleave', handleMouseLeave);
+        });
+    });
+</script>
+
+</body>
+
+</html>
+
+<body id="books">
+
+    <nav>
+        <div class="links">
+        <ul>
+            <li id="heading">Suzanne Collins</li>
+            <li class="item"><a data-active="home" href="index.html">Home</a></li>
+            <li class="item"><a data-active="books" href="Books.html">Books</a></li>
+            <li class="item"><a data-active="achievements" href="">Achievements</a></li>
+            <li class="item"><a data-active="reviews" href="Reviews.html">Reviews</a></li>
+            <li><label for="search"></label>
+                <input type="text" id="search" placeholder="search">
+            </li>
+        </ul>
+    </div>
+    </nav>
+    <div class="first">
+        <main>
+            <div class="Books-section">
+                <center>
+                    <h1>Books</h1>
+                </center>
+                <h2>Hunger Games</h2>
+                <hr>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div><a
+                                href="hunger games/hungergames.html"><img
+                                    src="image/hungergames.jpg"></a></div>
+
+                    </div>
+                    <div class="grid-item">
+                        <div> <a
+                                href="hunger games/catchingfire.html"><img
+                                    src="image/catchingfire.jpg"></a></div>
+                       
+                    </div>
+                    <div class="grid-item">
+                        <div><a
+                                href="hunger games/mockingjay.html"><img
+                                    src="image/mockingjay.jpg"></a></div>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <div><a
+                                href="hunger games/theballad.html"><img
+                                    src="image/Ballards of songbirds and snakes.jpg"></a></div>
+                        
+                    </div>
+                </div>
+                <h2>The Underland Chronicles</h2>
+                <hr>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div><a
+                                href="gregor/theoverlander.html"><img
+                                    src="image/theoverlander.jpg"></a></div>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <div><a
+                                href="gregor/theprophecyofbane.html"><img
+                                src="image/Prophecy.jpg"></a>
+                        </div>
+                       
+                    </div>
+                    <div class="grid-item">
+                        <div><a
+                                href="gregor/thecurseofthewarmbloods.html"><img
+                                    src="image/curse.jpg"></a></div>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <div><a
+                                href="gregor/themarksofsecrets.html"><img
+                                    src="image/marks.jpg"></a></div>
+                        
+
+                    </div>
+                    <div class="grid-item">
+                        <div><a
+                                href="gregor/thecodeofclaw.html"><img
+                                    src="image/code.jpg"></a></div>
+                        
+
+                    </div>
+                </div>
+                <h2>Standalone books</h2>
+                <hr>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div><a
+                                href="standalones/yearofthejungle.html"><img
+                                    src="image/year of the jungle.jpg"></a></div>
+                        
+                    </div>
+                    <div class="grid-item">
+                        <div><a
+                                href="standalones/whencharliemcbuttonlostpower.html"><img
+                                    src="image/charlie.jpg"></a></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const gridItems = document.querySelectorAll('.grid-item');
+
+            gridItems.forEach((item, index) => {
+                let scale = 1;
+
+                const zoomIn = () => {
+                    scale += 0.1;
+                    applyTransform();
+                };
+
+                const zoomOut = () => {
+                    scale -= 0.05;
+                    applyTransform();
+                };
+
+                const applyTransform = () => {
+                    item.querySelector('img').style.transform = `scale(${scale})`;
+                };
+
+                const resetZoom = () => {
+                    scale = 1;
+                    applyTransform();
+                };
+
+                const handleMouseEnter = () => {
+                    zoomIn();
+                };
+
+                const handleMouseLeave = () => {
+                    resetZoom();
+                };
+
+                const showAbout = (AboutId) => {
+                    const AboutBox = document.getElementById(AboutId);
+                    if (AboutBox) {
+                        AboutBox.style.display = 'block';
+                    }
+                };
+
+                item.addEventListener('mouseenter', handleMouseEnter);
+                item.addEventListener('mouseleave', handleMouseLeave);
+            });
+        });
+    </script>
+</body>
+
+</html>

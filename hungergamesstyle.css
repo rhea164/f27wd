@@ -1,0 +1,152 @@
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin: 0;
+    border: 0;
+    padding: 15px 0 10px 0;
+    position: sticky;
+
+}
+
+
+
+.navbar :nth-of-type(5){
+    flex-grow: 1;
+}
+
+
+
+.navbar a{
+    color: #FBFFF1;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px 30px 10px 30px ;
+    font-size: 20px;
+}
+
+#heading{
+    color:  #c1211e;
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 180px;
+}
+
+.navbar a:hover{
+    background-color: #331832 ;
+    color: #f64349;
+
+}
+body{
+    margin: 0;
+    background-color: #f9e2e2;
+}
+
+input{
+    border-radius: 25px;
+    padding: 0 20px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+    margin-right: 20px;
+    height: 30px;
+    width: 60px;
+}
+
+
+.book_description{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.right-pane{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container{
+   
+}
+
+.retailers{
+    width: 700px;
+    padding-left: 0;
+}
+
+.retailers li{
+    display: inline-flex;
+}
+
+.retailers ul{
+    padding-left: 0;
+}
+
+.retailers a{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    background-color: #f9e2e2;
+    padding: 10px 20px;
+    border: 1px solid;
+    font: 18px brandon-grotesque,sans-serif;
+    cursor: pointer;
+    }
+
+    .retailers a:hover{
+        background-color:  #102833; 
+        color: #FBFFF1;
+    }
+
+
+
+p{
+    width: 700px;
+    font-size: 20px;  
+    
+}
+
+
+h2{
+    width: 400px;
+    font-size: 2.3em;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+h4{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+h3{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+
+
+img{
+    margin: 100px 50px 50px 0px;
+    width: 350px;
+    height: 500px;
+
+}
+
+body{
+    height: 900px;
+}
+
+
+
