@@ -79,14 +79,14 @@ nav li{
 }
 
 body {
-    background-color: #f9c6c7;
+    background-color: #fbd4d4;
     margin: 0; /* Remove default margin */
 }
 
 h1{
     padding-top: 20px;
     font-family:  sans-serif;
-    background-color: #f9c6c7;
+    background-color: #fbd4d4;
     padding-left: 50px;
     padding-bottom: 30px;
     padding-right: 50px;
@@ -96,12 +96,12 @@ h1{
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto ;
-  background-color: #f9c6c7;
+  background-color: #fbd4d4;
   padding: 10px;
 }
 .grid-item {
-  background-color: rgba(249, 198, 199, 0.8);
-  border: 0px solid rgba(249, 198, 199, 0.8);
+  background-color: #fbd4d4;
+  border: 0px solid #f9c6c7cc;
   padding: 20px;
   font-size: 30px;
   text-align: center;
