@@ -10,18 +10,22 @@
     justify-content:flex-start;
     margin: 0;
     border: 0;
-    padding: 15px 0 10px 0; /*using the padding shorthand (top right buttom left)
+    padding: 15px 0 10px 0;
+    
 }
+
 .navbar :nth-of-type(5){
     flex-grow: 1;
 }
+
 .navbar a{   
     color: #FBFFF1;
-    text-decoration: none; /*removing the underline from the hyperlinks*/
+    text-decoration: none;
     margin: 0;
     padding: 10px 20px ;
     font-size: 20px;
 }
+
 #heading{
     color:  #c1211e;
     padding: 0 0 0 20px;
@@ -29,10 +33,12 @@
     font-size: 20px;
     width: 180px;
 }
+
 .navbar a:hover{
     background-color: #331832 ;
     color: #f64349;
 }
+
 input{
     border-radius: 25px;
     padding: 0 20px;
@@ -44,16 +50,18 @@ input{
     height: 30px;
     width: 60px;
 }
+
 body{
     background-color: #f9e2e2;
     margin: 0px;
 }
 
 .book_description {
-    display: flex;   /*default flex-direction is row*/
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .image_container{
     height: 500px;
     border: 1px solid #ccc;
@@ -63,10 +71,12 @@ body{
     margin-right: auto;
     max-width: 100%;
 }
+
 .image_container img {
     width: 350px;
     height: 500px;
 }
+  
 .right_pane {
     display: flex;
     flex-direction: column;
@@ -75,29 +85,34 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+  
 .right_pane h2 {
     font-size: 40px;
     font-family: sans-serif;
     text-align: center;
 }
+
 .right_pane h3{
     text-align:center;
     margin-top: 0;
     font-size: 22px;
     font-family: sans-serif;
 }
+
 .right_pane p {
     font-size: 18px;
     font-family: sans-serif;
     width:600px;
 }
+
 .quote{
     box-sizing: border-box;
-    border: 1px solid #ccc; /*border is 1px, border style is solid and color is as specified*/
+    border: 1px solid #ccc;
     border-radius: 20px;
     padding: 10px;
     text-align: center;
 }
+
 .retailers{
     flex: 1;
     display: flex;
@@ -105,18 +120,22 @@ body{
     justify-content: space-between;
     list-style: none;
 }
+
 .retailers h4{
     text-align: left;
     font-size: 22px;
     font-family: sans-serif;
     width: 600px;
 }
+
 .button-container{
     display: flex;
     justify-content: space-around;
     align-items: center;    
     text-align: center;
+
 }
+
 .retailers a{
     list-style-type: none;
     text-decoration: none;
@@ -128,10 +147,12 @@ body{
     font: 18px brandon-grotesque,sans-serif;
     cursor: pointer;
     }
- .retailers a:hover{ /*giving the retailers a hover state*/
+
+    .retailers a:hover{
         background-color:  #102833; 
         color: #FBFFF1;
     }
+
 .summary{
     margin-top: 50px;
     flex: 1;
@@ -139,15 +160,11 @@ body{
     flex-direction: column;
     width: 600px;
 }
+
 .summary h3{
     text-align: left;
 }
-.quote_dialogue{
-    text-align: center;
-}
+
 .summary_body{
     text-align: justify;
 }
-
-
-
