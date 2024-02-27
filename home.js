@@ -1,19 +1,3 @@
-/*const observer=new IntersectionObserver((entries)=>{
-    entries.forEach((entry)=>{
-        console.log(entry)
-        if(entry.isIntersecting){
-            entry.target.classList.add('show');
-        }else{
-            ntry.target.classList.remove('show');
-        }
-    });
-});
-
-
-
-const animateElements=document.querySelectorAll('.animate');
-animateElements.forEach((el)=>observer.observe(el));
-*/
 
 const initSlider = () => {
     const imageList = document.querySelector(".slider-wrapper .image-list");
@@ -22,18 +6,18 @@ const initSlider = () => {
     const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");
     const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
     
-    // Handle scrollbar thumb drag
+    // Handling the scrollbar thumb drag
     scrollbarThumb.addEventListener("mousedown", (e) => {
         const startX = e.clientX;
         const thumbPosition = scrollbarThumb.offsetLeft;
         const maxThumbPosition = sliderScrollbar.getBoundingClientRect().width - scrollbarThumb.offsetWidth;
         
-        // Update thumb position on mouse move
+        // change thumb position on moving mouse
         const handleMouseMove = (e) => {
             const deltaX = e.clientX - startX;
             const newThumbPosition = thumbPosition + deltaX;
 
-            // Ensure the scrollbar thumb stays within bounds
+            // Ensuring that the thumb scrollbar remains under bounds
             const boundedPosition = Math.max(0, Math.min(maxThumbPosition, newThumbPosition));
             const scrollPosition = (boundedPosition / maxThumbPosition) * maxScrollLeft;
             
@@ -41,18 +25,18 @@ const initSlider = () => {
             imageList.scrollLeft = scrollPosition;
         }
 
-        // Remove event listeners on mouse up
+        // Remove the event listeners on moving mouse up
         const handleMouseUp = () => {
             document.removeEventListener("mousemove", handleMouseMove);
             document.removeEventListener("mouseup", handleMouseUp);
         }
 
-        // Add event listeners for drag interaction
+        // Adding event listeners for drag interaction
         document.addEventListener("mousemove", handleMouseMove);
         document.addEventListener("mouseup", handleMouseUp);
     });
 
-    // Slide images according to the slide button clicks
+    // Slide images when slide button is clicked
     slideButtons.forEach(button => {
         button.addEventListener("click", () => {
             const direction = button.id === "prev-slide" ? -1 : 1;

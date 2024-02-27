@@ -2,31 +2,22 @@ nav ul{
     display: flex;
     list-style-type: none;
     background-color: black;
-    flex-direction: row;
-    justify-content:flex-start;
+    flex-direction: row; /*setting the main axis to row*/
+    justify-content:flex-start;/*positioning the div elements to the start of the container*/
     margin: 0;
     border: 0;
     padding: 15px 0 10px 0;
-
-
 }
-
 nav{
-    position: sticky;
+    position: sticky;/*positioning the navigation bar to the top of the page*/
     right:0px;
     z-index: 1;
     top: 0px;
     width: 100%;
 }
-
-
-
 nav :nth-of-type(5){
     flex-grow: 1;
 }
-
-
-
 nav a{
     color: #FBFFF1;
     text-decoration: none;
@@ -34,7 +25,6 @@ nav a{
     padding: 10px 30px 10px 30px ;
     font-size: 20px;
 }
-
 #heading{
     color:  #c1211e;
     margin: 0;
@@ -43,7 +33,6 @@ nav a{
     font-size: 20px;
     width: 180px;
 }
-
 input{
     border-radius: 25px;
     padding: 0 20px;
@@ -55,71 +44,53 @@ input{
     height: 30px;
     width: 60px;
 }
-
 .search-bar{
     float: right !important;
 }
-
 nav a:hover{
     background-color: #331832 ;
     color: #f64349;
 
 }
-
 nav a.active{
     background-color: #dcc4db ;
     color: #f64349;
 }
-
 nav li{
     float: left;
-    
 }
-
-
 .review-heading{
     border-bottom: 2px black solid;
     padding-bottom: 6px;
     padding-left: 12px;
 }
-
 .review-list{
-    list-style: none;
+    list-style: none; /*removing the bullet points from the list items*/
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*wrapping the elements inside the div container*/
     column-gap: 200px;
     row-gap: 100px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1250px;
 }
-
 .review-item{
     display: flex;
 }
-
 .review-image{
     padding-right: 40px;
     width: 150px;
 }
-
 .review-paragraph{
     padding-top: 20px;
     text-align: center;
     width: 300px;
 }
-
-
-
-
-
 h1{
     text-align: center;
     padding-top: 0px;
     font-size: 47px;
 }
-
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto ;
@@ -141,7 +112,6 @@ h1{
     align-items: center; /* Center the grid vertically */
     margin: 0 auto; /* Optional: Center the container horizontally */
 }
-
 .grid-item {
     display: flex;
     flex-direction: column;
@@ -149,13 +119,11 @@ h1{
     align-items: center; /* Center horizontally */
     text-align: center; /* Center text within the grid item */
 }
-
 .grid-item img {
     height: 300px; /* Set image height to fill the grid item */
     margin-bottom: 10px;
     scale: 1 1; /* Add some space between the image and the button */
 }
-
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -165,12 +133,9 @@ h1{
     border-radius: 5px;
     margin-top: 10px;
 }
-
 .button:hover {
     background-color: #2980b9;
 }
-
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -179,10 +144,7 @@ h1{
     align-items: center; /* Center the grid vertically */
     margin: 20px auto; /* Optional: Center the container horizontally with margin */
 }
-
 body{
     background-color: #fbd4d4;
     margin: 0;
 }
-    
-/*#6c757d*/

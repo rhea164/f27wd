@@ -1,44 +1,39 @@
 /*using flexbox*/
-nav ul{
+nav ul {
     display: flex;
     list-style-type: none;
     background-color: black;
     flex-direction: row;
-    justify-content:flex-start;
+    justify-content: flex-start;
     margin: 0;
     border: 0;
     padding: 15px 0 10px 0;
 
-
 }
 
-nav{
+nav {
     position: sticky;
-    right:0px;
+    right: 0px;
     z-index: 1;
     top: 0px;
     width: 100%;
 }
 
-
-
-nav :nth-of-type(5){
+nav :nth-of-type(5) {
     flex-grow: 1;
 }
 
-
-
-nav a{
+nav a {
     color: #FBFFF1;
     /*removing the text-decoration from the anchor tags*/
     text-decoration: none;
     margin: 0;
-    padding: 10px 30px 10px 30px ;
+    padding: 10px 30px 10px 30px;
     font-size: 20px;
 }
 
-#heading{
-    color:  #c1211e;
+#heading {
+    color: #c1211e;
     margin: 0;
     padding: 0 0 0 20px;
     font-weight: 700;
@@ -46,7 +41,7 @@ nav a{
     width: 180px;
 }
 
-input{
+input {
     border-radius: 25px;
     padding: 0 20px;
     border-color: aliceblue;
@@ -58,51 +53,40 @@ input{
     width: 60px;
 }
 
-nav a:hover{
-    background-color: #331832 ;
+nav a:hover {
+    background-color: #331832;
     color: #f64349;
 
 }
 
-nav a.active{
-    background-color: #dcc4db ;
+nav a.active {
+    background-color: #dcc4db;
     color: #f64349;
 }
 
-nav li{
+nav li {
     float: left;
-    
+
 }
 
-body{
+body {
     margin: 0;
 }
-
-/*h1{
-    font-size: 22.9px;
-    color: #ff3c38; 
-    padding-right: 100px ;
-    
-
-}*/
 
 .first p {
     text-align: justify;
     padding-left: 670px;
     padding-right: 60px;
-    font-size: 20px;;
+    font-size: 20px;
+    ;
     margin-bottom: 40px;
     letter-spacing: 1px;
     font-family: sans-serif;
     font-size: 17px;
     line-height: 1.3;
-
-    /*p
-    
-    float: right;*/
 }
 
-.first{
+.first {
     background-color: #fbd4d4;
     padding-bottom: 90px;
     border: solid;
@@ -110,31 +94,29 @@ body{
     border-bottom-color: #ffa1a4;
 }
 
-
-
-.first img{
+.first img {
     float: left;
     width: 450px;
     margin-top: 0%;
     height: 600px;
-    border : solid;
+    border: solid;
     border-width: 20px;
     border-left-width: 20px;
     border-color: #ffeaea;
     padding: 0px;
-    margin:120px 0 0 70px;
+    margin: 120px 0 0 70px;
 }
 
-.first h2{
+.first h2 {
     text-align: right;
     padding-right: 320px;
     font-size: 40px;
     padding-top: 100px;
-    padding-bottom:10px;
+    padding-bottom: 10px;
     margin: 0;
 }
 
-#section1{
+#section1 {
     background-color: #ffa1a4;
     margin: 0;
     padding: 20px 20px 70px 20px;
@@ -142,19 +124,19 @@ body{
     text-align: center;
 }
 
-.second img{
+.second img {
     float: left;
     width: 400px;
     margin-top: 0%;
     height: 550px;
     border: 0px;
     padding-bottom: 10em;
-    margin:0px;
+    margin: 0px;
     margin-left: 6em;
 }
 
-h3{
-    
+h3 {
+
     text-align: left;
     padding-right: 0em;
     font-size: 2.3em;
@@ -164,15 +146,15 @@ h3{
     padding-left: 40rem;
     display: inline-block;
     margin-top: 2em;
-    
+
 }
 
-.second form{
-    height:1em;
+.second form {
+    height: 1em;
 }
 
-.second button{
-    background-color:#C7F599;
+.second button {
+    background-color: #C7F599;
     border: solid;
     border-width: 3px;
     border-radius: 2em;
@@ -184,15 +166,15 @@ h3{
     padding: 10px 20px 10px 20px;
 }
 
-.second button:hover{
-    background-color:#a0e25e;
+.second button:hover {
+    background-color: #a0e25e;
     border-color: #eafbd8;
     border-width: 3px;
-    
+
 }
 
-#recognitions{
-    padding-top:9em;
+#recognitions {
+    padding-top: 9em;
     padding-left: 40rem;
     font-weight: bold;
     line-height: 1.6;
@@ -200,7 +182,7 @@ h3{
     padding-bottom: 2em;
 }
 
-.second p{
+.second p {
     padding-left: 40rem;
     font-size: 20px;
     padding-right: 7em;
@@ -210,10 +192,10 @@ h3{
 }
 
 
-.slider-wrapper .image-list{
+.slider-wrapper .image-list {
     display: grid;
     gap: 18px;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
     font-size: 0;
     margin-bottom: 30px;
     overflow-x: auto;
@@ -221,47 +203,48 @@ h3{
 
 }
 
-.slider-wrapper .image-list::-webkit-scrollbar{
+.slider-wrapper .image-list::-webkit-scrollbar {
     display: none;
 }
 
-.slider-wrapper .image-list .image-item{
+.slider-wrapper .image-list .image-item {
     width: 225px;
     height: 300px;
     object-fit: cover;
 }
 
-footer{
-    display:flex;
+footer {
+    display: flex;
     align-items: center;
     justify-content: center;
-   height: 400px;
+    height: 400px;
     background: #ffffff;
     padding-right: 20px;
     padding-left: 20px;
 
 }
 
-footer .container{
-    position:relative;
+footer .container {
+    position: relative;
     top: 410px;
     margin-right: 50%;
     bottom: 0;
     width: 750px;
 }
 
-.container p{
+.container p {
     text-align: center;
     padding-left: 40px;
 }
 
-.big{
+.big {
     align-items: center;
     width: 1300px;
     justify-content: center;
     height: 20px;
 }
-.container{
+
+.container {
     max-width: 1200px;
     width: 95%;
     background-color: #fad9d9;
@@ -272,9 +255,9 @@ footer .container{
 
 .slider-wrapper {
     position: relative;
-  }
+}
 
-  .slider-wrapper .slide-button {
+.slider-wrapper .slide-button {
     position: absolute;
     top: 50%;
     outline: none;
@@ -291,44 +274,43 @@ footer .container{
     justify-content: center;
     border-radius: 50%;
     transform: translateY(-50%);
-  }
+}
 
-  .slider-wrapper .slide-button:hover {
+.slider-wrapper .slide-button:hover {
     background: #404040;
-  }
-  .slider-wrapper .slide-button#prev-slide {
+}
+
+.slider-wrapper .slide-button#prev-slide {
     left: -25px;
     display: none;
-  }
-  .slider-wrapper .slide-button#next-slide {
+}
+
+.slider-wrapper .slide-button#next-slide {
     right: -25px;
-  }
+}
 
-
-
-.container .slider-scrollbar{
+.container .slider-scrollbar {
     height: 24px;
     width: 100%;
     display: flex;
     align-items: center;
 }
 
-.slider-scrollbar .scrollbar-track{
+.slider-scrollbar .scrollbar-track {
     height: 2px;
     width: 100%;
     background: #ccc;
     position: relative;
     border-radius: 4px;
 
-
 }
 
-.slider-scrollbar:hover .scrollbar-track{
+.slider-scrollbar:hover .scrollbar-track {
     height: 4px;
 
 }
 
-.slider-scrollbar .scrollbar-thumb{
+.slider-scrollbar .scrollbar-thumb {
     position: absolute;
     background: #000;
     width: 50%;
@@ -337,15 +319,14 @@ footer .container{
     cursor: grab;
 }
 
-.slider-scrollbar .scrollbar-thumb:active{
+.slider-scrollbar .scrollbar-thumb:active {
     cursor: grabbing;
     height: 8px;
     top: -2px;
 
-    
 }
 
-.slider-scrollbar .scrollbar-thumb::after{
+.slider-scrollbar .scrollbar-thumb::after {
     content: "";
     position: absolute;
     left: 0;
@@ -355,9 +336,8 @@ footer .container{
 
 }
 
-footer p{
+footer p {
     font-size: 20px;
     font-weight: 600;
     font-family: san;
 }
-
