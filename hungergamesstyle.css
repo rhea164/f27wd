@@ -10,7 +10,7 @@
     justify-content:flex-start;
     margin: 0;
     border: 0;
-    padding: 15px 0 10px 0; /*using the padding shorthand (top right buttom left)
+    padding: 15px 0 10px 0; /*using the padding shorthand (top right buttom left)*/
 }
 .navbar :nth-of-type(5){
     flex-grow: 1;
