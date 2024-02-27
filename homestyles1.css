@@ -1,3 +1,4 @@
+/*using flexbox*/
 nav ul{
     display: flex;
     list-style-type: none;
@@ -29,6 +30,7 @@ nav :nth-of-type(5){
 
 nav a{
     color: #FBFFF1;
+    /*removing the text-decoration from the anchor tags*/
     text-decoration: none;
     margin: 0;
     padding: 10px 30px 10px 30px ;
@@ -358,21 +360,4 @@ footer p{
     font-weight: 600;
     font-family: san;
 }
-/*.animate{
-    display:grid;
-    place-items: center;
-    align-content: center;
-    min-height: 400px;
-}
 
-.animate{
-    opacity: 0;
-    transition: all 1s;
-}
-
-.show{
-    opacity: 1;
-}*/
-/*#6c757d*/
-
-/* #ECB9A3 */

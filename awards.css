@@ -83,20 +83,24 @@ body{
     flex-wrap: wrap;
     justify-content:space-between;
     border-bottom: 1px solid rgb(68, 68, 68);
+    flex-shrink: 1;
+    flex-grow: 1;
 
 }
 
 .img-container{
     height: 770px;
-    width: 740px;
-
+    min-width: 500px;
+    max-width: 740px;
 
 
 }
 
 .img-container img{
     height: 770px;
-    width: 740px;
+    max-width: 740px;
+    min-width: 500px;
+    
    
     
    
@@ -105,7 +109,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-   width: 650px;
+    max-width: 650px;
+    min-width: 500px;
 
 }
 

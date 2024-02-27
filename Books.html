@@ -15,12 +15,12 @@
         gridItems.forEach(item => {
             let scale = 1;
 
-
+            /*zoom in on hovering*/
             const zoomIn = () => {
                 scale += 0.1;
                 applyTransform();
             };
-
+            
             const zoomOut = () => {
                 scale -= 0.05;
                 applyTransform();
@@ -83,6 +83,7 @@
                 </center>
                 <h2>Hunger Games</h2>
                 <hr>
+                <!--creating grid container for each book series which has each book as a grid element-->
                 <div class="grid-container">
                     <div class="grid-item">
                         <div><a href="hunger games/hungergames.html"><img src="image/hungergames.jpg"></a></div>

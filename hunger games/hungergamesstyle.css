@@ -57,7 +57,7 @@ body{
 }
 
 .book_description {
-    display: flex;
+    display: flex;   /*default flex-direction is row*/
     flex-wrap: wrap;
     justify-content: space-between;
 }
