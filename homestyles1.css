@@ -227,7 +227,6 @@ footer {
 footer .container {
     position: relative;
     top: 410px;
-    margin-right: 50%;
     bottom: 0;
     width: 750px;
 }
@@ -249,8 +248,8 @@ footer .container {
     width: 95%;
     background-color: #fad9d9;
     margin-right: 30px;
-    padding-right: 370px;
-    padding-left: 400px;
+    padding-right: 600px;
+    padding-left: 700px;
 }
 
 .slider-wrapper {
